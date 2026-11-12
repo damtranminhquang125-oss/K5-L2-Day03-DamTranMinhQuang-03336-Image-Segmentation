@@ -14,15 +14,15 @@ Ghi tên ZIP đúng như file trong `submissions/` và số ảnh đã vẽ, Sav
 
 | Task | File ZIP đúng tên | Hoàn thành mấy ảnh | Điểm tối đa (coach chấm sau) |
 | --- | --- | ---: | ---: |
-| easy_semantic | … | 3 / 3 | 20 |
-| medium_instance | … | 3 / 3 | 32 |
-| hard_panoptic | … | 2 / 2 | 30 |
-| cp1_holes | … | … / 1 | 3 |
-| cp2_slice | … | … / 1 | 3 |
-| cp5_occlusion | … | … / 1 | 3 |
-| cp3_thin | … | … / 1 | 3 |
-| cp4_curb | … | … / 1 | 3 |
-| cp6_coverage | … | … / 0 | 3 |
+| easy_semantic | Có | 3 / 3 | 20 |
+| medium_instance | Có | 3 / 3 | 32 |
+| hard_panoptic | Có | 2 / 2 | 30 |
+| cp1_holes | Có | 1 / 1 | 3 |
+| cp2_slice | Có | 1 / 1 | 3 |
+| cp5_occlusion | Có | 1 / 1 | 3 |
+| cp3_thin | Có | 1 / 1 | 3 |
+| cp4_curb | Có | 1 / 1 | 3 |
+| cp6_coverage | Không | 0 / 1 | 3 |
 | **Tổng tối đa** | | 13 | **100** |
 
 Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã báo coach.
@@ -31,9 +31,9 @@ Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã 
 
 Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi xem bất kỳ đề xuất tự động nào cho object đó. Ghi ảnh/vị trí đủ để tìm lại; “quy tắc biên” là lý do bạn chọn hoặc dừng mask ở ranh đó.
 
-- Ảnh, vị trí và object Medium đầu tiên tự vẽ: …
-- Class và quy tắc tôi dùng để chọn biên: …
-- Nếu dùng gợi ý sau đó: vùng gợi ý sai/đúng, hành động sửa/giữ và lý do: …
+- Ảnh, vị trí và object Medium đầu tiên tự vẽ: Ảnh 000000181542.jpg, object "person" mặc áo dài ở giữa khung hình
+- Class và quy tắc tôi dùng để chọn biên: Class person và biên bám sát vào phần người nhìn thấy
+- Nếu dùng gợi ý sau đó: vùng gợi ý sai/đúng, hành động sửa/giữ và lý do: xe máy sau người mặc áo dài bị tách làm 2 phần, vẽ lại mask bằng brush thành 1 instance vì xe máy bị tách làm 2 vẫn tính là 1 instance
 - Nếu không dùng gợi ý: ghi “không dùng”; vẫn giải thích một quyết định gán nhãn của mình.
 
 ## 3. Một lỗi tôi tìm thấy và sửa
@@ -41,10 +41,10 @@ Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi x
 Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến bạn chưa sửa được, ghi rõ đã thử gì và cần coach hỗ trợ gì; không ghi “đã sửa” khi chưa sửa.
 
 - Task/ảnh/vùng: …
-- Lỗi thuộc loại: sai lớp / thiếu-thừa vật / gộp-tách / biên / phủ vùng / khác: …
-- Bằng chứng tôi nhìn thấy: …
-- Quy tắc và hành động sửa: …
-- Sau sửa đã Save và export lại chưa? …
+- Lỗi thuộc loại: sai lớp / thiếu-thừa vật / gộp-tách / biên / phủ vùng / khác: phủ vùng
+- Bằng chứng tôi nhìn thấy: building và vegetation dính vào nhau
+- Quy tắc và hành động sửa: quy tắc vẽ thành 2 vùng riêng biệt, sửa: vẽ ranh giới giữa 2 rõ ràng nhất có thể
+- Sau sửa đã Save và export lại chưa? Rồi ạ
 
 Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): … / chưa có điểm. Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
 
