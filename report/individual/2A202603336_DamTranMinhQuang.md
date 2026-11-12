@@ -22,8 +22,8 @@ Ghi tên ZIP đúng như file trong `submissions/` và số ảnh đã vẽ, Sav
 | cp5_occlusion | Có | 1 / 1 | 3 |
 | cp3_thin | Có | 1 / 1 | 3 |
 | cp4_curb | Có | 1 / 1 | 3 |
-| cp6_coverage | Không | 0 / 1 | 3 |
-| **Tổng tối đa** | | 13 | **100** |
+| cp6_coverage | Không | 0 / 1 | 0 |
+| **Tổng tối đa** | | 13 | **97** |
 
 Nếu export lỗi, ghi task, dữ liệu đã Save đến đâu và lỗi đã báo coach.
 
