@@ -54,6 +54,6 @@ Mỗi ca là một **vùng cụ thể** khiến bạn phải cân nhắc hai cá
 
 | Ảnh/vị trí | Hai cách hiểu có thể | Quy tắc/chứng cứ | Quyết định hoặc câu hỏi cho coach |
 | --- | --- | --- | --- |
-| 1 | … | … | … |
-| 2 | … | … | … |
-| 3 | … | … | … |
+| 817bca71-00000000.jpg | Các object xếp theo layer từ gần đến xa hay theo class | Ảnh có nhiều object chồng lên nhau từ xa đến gần | Từ gần đến xa |
+| 000000458325.jpg | Người bế em bé thì có được tính là 2 instance hay không | Mỗi person đếm được là 1 instance | 2 instance |
+| 000000460147.jpg | Xe truck chở ô tô bị khuất phần đầu thì tính tất cả là 1 xe truck hay tính nhiều car trên 1 xe truck | Vẽ sát **phần nhìn thấy**, không tự đoán phần bị che | Vẽ nhiều car, không vẽ truck |
