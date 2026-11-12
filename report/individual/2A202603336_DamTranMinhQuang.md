@@ -40,7 +40,7 @@ Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi x
 
 Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến bạn chưa sửa được, ghi rõ đã thử gì và cần coach hỗ trợ gì; không ghi “đã sửa” khi chưa sửa.
 
-- Task/ảnh/vùng: …
+- Task/ảnh/vùng: 000000350023.jpg
 - Lỗi thuộc loại: sai lớp / thiếu-thừa vật / gộp-tách / biên / phủ vùng / khác: phủ vùng
 - Bằng chứng tôi nhìn thấy: building và vegetation dính vào nhau
 - Quy tắc và hành động sửa: quy tắc vẽ thành 2 vùng riêng biệt, sửa: vẽ ranh giới giữa 2 rõ ràng nhất có thể
